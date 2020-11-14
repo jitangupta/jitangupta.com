@@ -1,0 +1,115 @@
+.big-hero-six {
+  position: absolute;
+  top: 0px;
+  background: white;
+  z-index: 1;
+  margin-bottom: 64px;
+
+  p {
+    margin: 0;
+
+    &:first-of-type {
+      position: relative;
+      left: 3px;
+    }
+
+    &:last-of-type {
+      position: relative;
+      left: 3px;
+
+      @media (minx-width: 520px) {
+        top: 8px;
+      }
+    }
+  }
+
+  .background {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    max-width: 1440px;
+    margin: auto;
+    background: #fff;
+    bottom: -164px;
+    z-index: 2;
+    overflow: hidden;
+  }
+
+  .main-content-wrapper {
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 3;
+  }
+
+  video {
+    position: relative;
+    z-index: 1;
+    width: 101%;
+    flex: none;
+  }
+
+  .custom-wave {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    /* top: 514px; */
+    top: 445px;
+    width: 100vw;
+    height: 400px;
+    background: #0e0e0e;
+
+    path,
+    rect {
+      fill: #0e0e0e;
+      }
+    }
+}
+
+@keyframes fade-away {
+  from { opacity: 1; }
+  to { opacity: 0.1; }
+}
+
+/* Some switcharoos on what to show on the hero, depending on the size */
+
+@media (max-width: 780px) {
+  .big-hero-six {
+    color: #0e1e25;
+
+    .background {
+      background: #fff;
+   }
+
+   .custom-wave {
+     display: none;
+   }
+ }
+}
+
+@media (max-width: 900px) {
+  .big-hero-six .background {
+    bottom: -64px;
+  }
+}
+
+@media (max-width: 624px) {
+  .big-hero-six h1 {
+    font-size: 11vw;
+  }
+}
+
+@media (max-width: 520px) {
+
+  .big-hero-six .main-content-wrapper {
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16px;
+  }
+
+  .big-hero-six h1 {
+    font-size: 42px;
+    margin: 4px 0 4px 0;
+  }
+}

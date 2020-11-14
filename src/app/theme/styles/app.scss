@@ -81,7 +81,7 @@ a.external-link {
   }
 }
 
-.whole-thang-is-a-target {
+.whole-thing-is-a-target {
   display: block;
   height: 100%;
   width: 100%;
@@ -217,4 +217,13 @@ a.external-link {
 
 .hide {
   display: none;
+}
+
+#easterNope {
+  z-index: 999;
+  position: fixed;
+  left: -280px;
+  top: 50%;
+  height: 200px;
+  animation-fill-mode: forwards;
 }
