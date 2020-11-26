@@ -13,7 +13,8 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: #0e1e25;
   font-size: 18px;
   margin: 0;
@@ -31,14 +32,18 @@ h2 {
   font-weight: bold;
   margin: 0;
 
-  @media (max-width: 520px) { font-size: 42px; }
+  @media (max-width: 520px) {
+    font-size: 42px;
+  }
 }
 
 h3 {
   font-size: 36px;
   margin: 0;
 
-  @media (max-width: 520px) { font-size: 28px; }
+  @media (max-width: 520px) {
+    font-size: 28px;
+  }
 }
 
 h4 {
@@ -48,7 +53,7 @@ h4 {
 
 p {
   margin-top: 16px;
-  opacity: .7;
+  opacity: 0.7;
   line-height: 1.4em;
 }
 
@@ -128,7 +133,7 @@ a.external-link {
   background: #fff;
   border-radius: 16px;
 
-  transition: transform .1s ease-in-out;
+  transition: transform 0.1s ease-in-out;
 }
 
 .depth-level-1 {
@@ -141,22 +146,22 @@ a.external-link {
 }
 
 .depth-level-2 {
-  transform: scale(.8, .8);
+  transform: scale(0.8, 0.8);
   box-shadow: 0px 4px 24px 2px rgba(14, 30, 37, 0.16);
   z-index: 2;
 
   &:hover {
-    transform: scale(.8, .8) translateY(-16px);
+    transform: scale(0.8, 0.8) translateY(-16px);
   }
 }
 
 .depth-level-3 {
-  transform: scale(.7, .7);
+  transform: scale(0.7, 0.7);
   box-shadow: 0px 4px 14px 2px rgba(14, 30, 37, 0.16);
   z-index: 1;
 
   &:hover {
-    transform: scale(.7, .7) translateY(-16px);
+    transform: scale(0.7, 0.7) translateY(-16px);
   }
 }
 
@@ -198,21 +203,29 @@ a.external-link {
 }
 
 .popin {
-  animation: 1s popin cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  animation: 1s popin cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 .popout {
-  animation: 1s popout cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  animation: 1s popout cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 @keyframes popin {
-  from { left: -280px; }
-  to {left: 0;}
+  from {
+    left: -280px;
+  }
+  to {
+    left: 0;
+  }
 }
 
 @keyframes popout {
-  from { left: 0px; }
-  to {left: -280px;}
+  from {
+    left: 0px;
+  }
+  to {
+    left: -280px;
+  }
 }
 
 .hide {
@@ -226,4 +239,18 @@ a.external-link {
   top: 50%;
   height: 200px;
   animation-fill-mode: forwards;
+}
+
+.responsive {
+  width: 100%;
+  overflow: auto;
+}
+
+.smooth-border {
+  border: 1px solid #e4e2e2;
+  border-radius: 5px;
+}
+
+.p-7{
+  padding: 7px;
 }
