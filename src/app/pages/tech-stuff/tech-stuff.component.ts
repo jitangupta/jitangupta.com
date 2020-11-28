@@ -23,7 +23,7 @@ import { Component, OnInit } from '@angular/core';
               </a>
             </div>
             Github Contribution Chart
-            <img src="http://ghchart.rshah.org/119e16/jitangupta" alt="JitanGupta's Github chart"
+            <img src="https://ghchart.rshah.org/f48024/jitangupta" alt="JitanGupta's Github chart"
               class="smooth-border p-7" />
           </div>
         </div>

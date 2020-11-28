@@ -6,15 +6,15 @@ $tech-color: #f48024;
   color: #ffffff !important;
   background-image: url(../../../../assets/images/method-draw-image3.svg) !important;
 
-  @media(max-width:1500px){
+  @media (max-width: 1500px) {
     background-image: url(../../../../assets/images/method-draw-image_med.svg) !important;
   }
 
-  @media(max-width:768px){
+  @media (max-width: 768px) {
     background-image: url(../../../../assets/images/method-draw-image-xs.svg) !important;
   }
 
-  .tech-color{
+  .tech-color {
     color: $tech-color;
   }
 
@@ -27,18 +27,18 @@ $tech-color: #f48024;
     margin: 10px 10px 10px 0;
   }
 
-  .article{
+  .article {
     display: flex;
   }
 
-  .article-text-div{
+  .article-text-div {
     display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(365px,1fr));
+    grid-template-columns: repeat(auto-fill, minmax(365px, 1fr));
     grid-gap: 32px;
     gap: 32px;
 
-    @media(max-width: 450px){
-      grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    @media (max-width: 450px) {
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     }
   }
 
@@ -184,5 +184,12 @@ $tech-color: #f48024;
   }
   .article-card-shadow {
     box-shadow: 1px 0px 20px #ffffff;
+  }
+
+  p a {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+    &:hover {
+      border-color: #f99243;
+    }
   }
 }
