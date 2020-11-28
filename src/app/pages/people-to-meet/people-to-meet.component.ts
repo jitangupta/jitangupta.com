@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PeopleLikeToMeet, PeopleLikeToMeetList } from 'src/app/core/data/people-id-like-to-meet';
+import { PeopleLikeToMeet, PEOPLE_LIKE_TO_MEET } from 'src/app/core/data/people-id-like-to-meet';
 
 @Component({
   selector: 'app-people-to-meet',
@@ -19,7 +19,7 @@ import { PeopleLikeToMeet, PeopleLikeToMeetList } from 'src/app/core/data/people
       <ul>
         <li *ngFor="let person of people" [ngClass]="{'checked': person.haveMet}" class="{{person.background}}">
           <span class="tick"></span>
-          <a target="_blank" routerLink="person.url">{{person.name}}</a>
+          <a target="_blank" href="{{person.url}}">{{person.name}}</a>
         </li>
       </ul>
     </div>
@@ -31,7 +31,7 @@ export class PeopleToMeetComponent implements OnInit {
   people: PeopleLikeToMeet[];
 
   ngOnInit(): void {
-    this.people = PeopleLikeToMeetList;
+    this.people = PEOPLE_LIKE_TO_MEET;
   }
 
 }
