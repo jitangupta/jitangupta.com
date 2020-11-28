@@ -247,10 +247,33 @@ a.external-link {
 }
 
 .smooth-border {
-  border: 1px solid #e4e2e2;
+  border: 3px solid #9E9E9E;
   border-radius: 5px;
 }
 
-.p-7{
+.p-7 {
   padding: 7px;
 }
+
+.d-flex {
+  display: flex;
+}
+
+.main-heading {
+  font-size: 65px;
+  font-weight: 300;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  @media(max-width: 992px){
+    font-size: 55px;
+  }
+
+  @media(max-width: 768px){
+    font-size: 45px;
+  }
+}
+
+
+
+

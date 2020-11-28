@@ -1,0 +1,30 @@
+<svg width="1920.0000000000002" height="1080" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="1082" width="1922" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000" id="svg_1" height="1131.43125" width="1977.14788" y="-28.68778" x="-34.39482" stroke-width="1.5" fill="#161616"/>
+  <rect stroke="#000" transform="rotate(-20.868120193481445 193.14585876464844,60.95139694213863) " id="svg_2" height="17.55555" width="177.25332" y="52.17362" x="104.5192" stroke-width="0" fill="#e0e0e0"/>
+  <rect stroke="#000" transform="rotate(-20.616859436035156 72.99895477294916,80.33428192138673) " id="svg_3" height="16" width="120.11455" y="72.33428" x="12.94168" stroke-width="0" fill="#828282"/>
+  <rect stroke="#000" transform="rotate(35.40372085571289 1811.5869140624998,155.99977111816403) " id="svg_4" height="5.43924" width="134.23569" y="153.28017" x="1744.46906" stroke-width="0" fill="#000000"/>
+  <rect transform="rotate(-23.776275634765625 1798.138916015625,990.7799072265624) " stroke="#000" id="svg_5" height="24" width="197.64099" y="978.77993" x="1699.31837" stroke-width="0" fill="#e9e8e3"/>
+  <rect stroke="#000" transform="rotate(-23.776275634765625 1822.424682617187,1013.6372070312503) " id="svg_6" height="10" width="65.26506" y="964.83212" x="1853.59482" stroke-width="0" fill="#828282"/>
+  <line transform="rotate(-23.776275634765625 1739.567138671875,977.9227294921877) " stroke="#1c1a25" stroke-linecap="null" stroke-linejoin="null" id="svg_7" y2="984.33503" x2="1758.21817" y1="985.33503" x1="1587.17172" stroke-width="3" fill="none"/>
+  <ellipse stroke="#000" ry="11.12834" rx="11.59345" id="svg_9" cy="170.93885" cx="63.66925" stroke-opacity="null" stroke-width="0" fill="#333333"/>
+  <ellipse stroke="#000" ry="10.3876" rx="11.22308" id="svg_10" cy="406.51276" cx="1845.90595" stroke-opacity="null" stroke-width="0" fill="#333333"/>
+  <line stroke="#1e1e1d" stroke-width="6" stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="758.70507" x2="82.38785" y1="708.7049" x1="98.61082" fill="none"/>
+  <text stroke="#1e1e1d" transform="matrix(0.5807237029075623,0,0,0.48443150520324707,24.90763252414763,274.7738404534757) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="50" id="svg_14" y="1120.99528" x="140.59161" fill="#262626">&lt; developer-stats /&gt;</text>
+  <text stroke="#1e1e1d" transform="matrix(0.5807237029075623,0,0,0.48443150520324707,24.90763252414763,274.7738404534757) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="50" id="svg_15" y="-392.61685" x="2071.89187" fill="#262626">&lt; developer-stats /&gt;</text>
+  <text stroke="#1e1e1d" transform="matrix(0.5807237029075623,0,0,0.48443150520324707,24.90763252414763,274.7738404534757) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="50" id="svg_19" y="848.90351" x="2418.75145" fill="#262626">&lt; developer-stats /&gt;</text>
+  <text stroke="#1e1e1d" transform="matrix(0.5807237029075623,0,0,0.48443150520324707,24.90763252414763,274.7738404534757) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="50" id="svg_20" y="-18.09647" x="659.85356" fill="#262626">&lt; developer-stats /&gt;</text>
+  <rect stroke="#000" transform="rotate(35.40372085571289 1811.5869140624998,155.99977111816403) " id="svg_21" height="5.43924" width="134.23569" y="153.28017" x="1744.46906" stroke-width="0" fill="#000000"/>
+  <ellipse stroke="#000" ry="10.3876" rx="11.22308" id="svg_22" cy="739.37156" cx="120.18307" stroke-opacity="null" stroke-width="0" fill="#333333"/>
+  <ellipse stroke="#000" ry="10.3876" rx="11.22308" id="svg_23" cy="923.65821" cx="1785.90565" stroke-opacity="null" stroke-width="0" fill="#333333"/>
+ </g>
+</svg>

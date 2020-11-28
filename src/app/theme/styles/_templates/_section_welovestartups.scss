@@ -1,0 +1,66 @@
+.work {
+  .work-heading {
+    font-size: 35px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    margin: 0 0 10px;
+    line-height: 1.1;
+  }
+  .details {
+    line-height: 1.5;
+    color: #616161;
+    font-weight: 300;
+    font-size: 20px;
+    max-width: 600px;
+    margin: 25px auto;
+  }
+  .links-and-tags {
+    display: block;
+    margin-bottom: 45px;
+    .tag,
+    .link {
+      padding: 6px 18px;
+      display: inline-block;
+      border: 1px solid #929292;
+      margin: 5px 5px;
+      border-radius: 15px;
+      color: #616161;
+    }
+    .link {
+      text-decoration: none;
+    }
+  }
+  .we-love-startups {
+    padding: 50px;
+    padding-bottom: 0px;
+    background: url(../../../../assets/images/we-love-startups-bg.png);
+    background-color: #eaf7ff;
+    text-align: center;
+    .work-heading {
+      color: #f25871;
+    }
+    .link {
+      background: #f25871;
+      color: #fff;
+      border-color: #f25871;
+    }
+    .img-container {
+      max-height: 500px;
+      overflow-y: hidden;
+      padding: 14px;
+      padding-bottom: 0px;
+      .work-image {
+        border-radius: 5px;
+        box-shadow: 0px 2px 17px 5px rgba(177, 177, 177, 0.61);
+        max-width: 950px;
+        width: 100%;
+      }
+      @media (max-width: 767px) {
+        max-height: 350px;
+      }
+      @media (max-width: 530px) {
+        margin: 0 -45px;
+      }
+    }
+  }
+}

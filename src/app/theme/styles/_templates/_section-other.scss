@@ -10,7 +10,7 @@
 
   .main-content-wrapper {
     align-items: center;
-    padding-bottom: 125px;
+    padding-bottom: 80px;
   }
 
   .content {
@@ -141,9 +141,9 @@
 }
 
 
-.in-the-year-2000 .manyajs:hover {      background: rgba(40, 180, 115, .1); }
-.in-the-year-2000 .attendance-calender:hover { background: rgba(231, 76, 60, .1); }
-.in-the-year-2000 .article:hover {       background: rgba(108, 187, 199, .1); }
+.in-the-year-2000 li:hover {      background: rgba(255, 255, 255, .1); }
+// .in-the-year-2000 .attendance-calender:hover { background: rgba(231, 76, 60, .1); }
+// .in-the-year-2000 .article:hover {       background: rgba(108, 187, 199, .1); }
 .social .twitter:hover {               background: rgba(097, 159, 230, .1); }
 .social .stacl-overflow:hover {              background: rgba(244, 128, 36, .1); }
 .social .csharp-corner:hover {              background: rgba(0, 134, 220, .1); }
