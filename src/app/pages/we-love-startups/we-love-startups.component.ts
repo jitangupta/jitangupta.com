@@ -6,11 +6,12 @@ import { Component, OnInit } from '@angular/core';
     <!--Work-->
     <div class="work" id="work">
       <div class="we-love-startups">
-        <h2 class="main-heading">We Love Startups</h2>
+        <h2 class="main-heading">Community <img src="/assets/images/handshake.svg" /> Believer</h2>
         <p class="details">
-          Build a community with two friends for entrepreneurs, startup founders, developers, ui/ux
-          designers, marketers, social media influencers, photographers, and
-          bloggers.
+          When I started believing in community, I built a community with my two other friends (Brijesh Tejani & Apoorv Kumar).
+        </p>
+        <p class="details">
+          In community we used to do events and share our knowledge and learn from each others.
         </p>
         <div class="links-and-tags">
           <!-- <div class="tag">Product Strategy</div>

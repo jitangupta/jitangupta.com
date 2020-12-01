@@ -1,15 +1,18 @@
+$community-color: #2e9ad3;
+
+.community-color{
+  color: $community-color;
+}
+
 .work {
-  .work-heading {
-    font-size: 35px;
-    font-weight: 400;
-    letter-spacing: 0.5px;
-    margin: 0 0 10px;
-    line-height: 1.1;
+  .main-heading {
+    img {
+      margin-bottom: -16px;
+    }
   }
   .details {
     line-height: 1.5;
     color: #616161;
-    font-weight: 300;
     font-size: 20px;
     max-width: 600px;
     margin: 25px auto;
@@ -36,13 +39,11 @@
     background: url(../../../../assets/images/we-love-startups-bg.png);
     background-color: #eaf7ff;
     text-align: center;
-    .work-heading {
-      color: #f25871;
-    }
+
     .link {
-      background: #f25871;
+      background: #6cc8f7;
       color: #fff;
-      border-color: #f25871;
+      border-color: #6cc8f7;
     }
     .img-container {
       max-height: 500px;
@@ -65,6 +66,6 @@
   }
 
   .main-heading {
-    color: #f25871 !important;
+    color: $community-color !important;
   }
 }

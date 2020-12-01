@@ -1,5 +1,7 @@
 .big-hero-six {
+  display: flex;
   position: absolute;
+  height: 600px;
   top: 0px;
   background: white;
   z-index: 1;
@@ -36,16 +38,12 @@
     z-index: 2;
     overflow: hidden;
 
-    img {
-      height: 100vh;
-      width: auto;
-    }
-
-    .layer {
-      background-color: #00000024;
-      position: absolute;
-      height: 100%;
-      width: 100%;
+    .static-img {
+      height: 850px;
+      // background-image: url(/assets/poster.jpg);
+      // background: #161616;
+      // background: linear-gradient(0deg, #161616 37.5%, white 37.5%);
+      padding-left: 350px;
     }
   }
 
@@ -70,13 +68,24 @@
     top: 445px;
     width: 100vw;
     height: 400px;
-    background: #0e0e0e;
+    background: #161616;
 
     path,
     rect {
-      fill: #0e0e0e;
+      fill: #161616;
     }
   }
+}
+
+.memoji {
+  display: none;
+  height: 60px;
+  margin-right: 10px;
+}
+
+#unecessary-part-of-name {
+  animation: 10s ease-in-out 3s fade-away;
+  animation-fill-mode: forwards;
 }
 
 @keyframes fade-away {
@@ -92,10 +101,10 @@
 
 @media (max-width: 780px) {
   .big-hero-six {
-    color: #fff;
+    color: #0e1e25;
 
     .background {
-      background: rgb(156, 156, 156);
+      background: #fff;
     }
 
     .custom-wave {
@@ -107,24 +116,39 @@
 @media (max-width: 900px) {
   .big-hero-six .background {
     bottom: -64px;
+    .static-img {
+      height: 600px;
+      padding-left: 200px;
+    }
   }
 }
-
-@media (max-width: 500px) {
-  .big-hero-six .background {
-    bottom: 50px;
+.what-i-am {
+  font-weight: 500;
+  .seperator {
+    font-size: 50px;
+    color: #e3e3e3;
+    padding: 5px;
   }
 }
-
-@media (max-width: 400px) {
-  .big-hero-six .background {
-    bottom: 125px;
+@media (max-width: 768px) {
+  .what-i-am {
+    width: 400px;
+    display: grid;
+    .seperator {
+      display: none;
+    }
   }
 }
 
 @media (max-width: 624px) {
   .big-hero-six h1 {
     font-size: 11vw;
+  }
+  .big-hero-six .background {
+    .static-img {
+      height: 500px;
+      padding-left: 150px;
+    }
   }
 }
 
@@ -138,5 +162,12 @@
   .big-hero-six h1 {
     font-size: 42px;
     margin: 4px 0 4px 0;
+  }
+
+  .big-hero-six .background {
+    .static-img {
+      height: 400px;
+      padding-left: 100px;
+    }
   }
 }

@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
       <div class="main-content-wrapper">
         <div class="content">
           <h3 class="main-heading">&lt;<span class="tech-color">Developer</span>&#47;&gt;</h3>
-          <p>Here are few highlights of my developer contribution and activity through out web</p>
+          <p>Here are few highlights of my development contribution and activity through out web</p>
           <!-- stats-->
           <div class="responsive">
             <div class="d-flex">

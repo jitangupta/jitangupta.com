@@ -247,7 +247,7 @@ a.external-link {
 }
 
 .smooth-border {
-  border: 3px solid #9E9E9E;
+  border: 3px solid #333333;
   border-radius: 5px;
 }
 
@@ -261,24 +261,23 @@ a.external-link {
 
 .main-heading {
   font-size: 65px;
-  font-weight: 300;
+  font-weight: 400;
   margin-top: 50px;
   margin-bottom: 30px;
 
-  img{
+  img {
     height: 70px;
-    margin-bottom: -10px;
   }
 
-  @media(max-width: 992px){
+  @media (max-width: 992px) {
     font-size: 55px;
   }
 
-  @media(max-width: 768px){
+  @media (max-width: 768px) {
     font-size: 45px;
   }
 }
 
-
-
-
+.p-t-100 {
+  padding-top: 100px;
+}

@@ -1,21 +1,19 @@
 $tech-color: #f48024;
 
+.tech-color {
+  color: $tech-color;
+}
+
 .tech-stuff {
-  position: relative;
-  z-index: 3;
   color: #ffffff !important;
-  background-image: url(../../../../assets/images/method-draw-image3.svg) !important;
+  background-image: url(../../../../assets/images/tech-stuff-bg.svg) !important;
 
   @media (max-width: 1500px) {
-    background-image: url(../../../../assets/images/method-draw-image_med.svg) !important;
+    background-image: url(../../../../assets/images/tech-stuff-bg-med.svg) !important;
   }
 
   @media (max-width: 768px) {
-    background-image: url(../../../../assets/images/method-draw-image-xs.svg) !important;
-  }
-
-  .tech-color {
-    color: $tech-color;
+    background-image: url(../../../../assets/images/tech-stuff-bg-xs.svg) !important;
   }
 
   @media (min-width: 975px) {
