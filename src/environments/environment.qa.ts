@@ -4,5 +4,5 @@ export const environment = {
   /**
    * Used for SEO, will only work for Production Environment
    */
-  isLive: true,
+  isLive: false,
 };
